@@ -106,9 +106,9 @@
     // 1) one‑time welcome message
     const holder = document.getElementById("welcomeMsg");
     const hr = new Date().getHours();
-    const greet = hr<12? "Good morning!"
-               : hr<18? "Good afternoon!"
-                      : "Good evening!";
+    const greet = hr<12? "Good morning!おはようございます！"
+               : hr<18? "Good afternoon!こんばんは！"
+                      : "Good evening!こんばんは！";
     holder.textContent = `${greet} 👋 Welcome to my site.`;
 
     // 2) Color‑Flipper
